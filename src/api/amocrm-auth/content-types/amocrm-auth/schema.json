@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "amocrm_auths",
+  "info": {
+    "singularName": "amocrm-auth",
+    "pluralName": "amocrm-auths",
+    "displayName": "amocrmAuth"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "token": {
+      "type": "json"
+    }
+  }
+}
