@@ -16,7 +16,7 @@
       "type": "string"
     },
     "token": {
-      "type": "json"
+      "type": "string"
     }
   }
 }
