@@ -15,6 +15,7 @@
     "@strapi/plugin-users-permissions": "4.0.7",
     "@strapi/strapi": "4.0.7",
     "axios": "^0.25.0",
+    "heroku": "^7.59.3",
     "pg": "8.6.0"
   },
   "author": {
