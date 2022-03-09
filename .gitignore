@@ -109,3 +109,4 @@ build
 .strapi-updater.json
 
 .env.novailoveyou3.example
+.env.mbamoscow.example
