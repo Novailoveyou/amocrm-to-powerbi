@@ -4,14 +4,13 @@ const { queryAmocrm } = require('./queryAmocrm')
 
 const handleAmocrm = async ({ strapi }) => {
   const amocrmToken = await getAmocrmTokenFromDb({ strapi })
-  console.log('amocrmToken ', amocrmToken)
 
-  const resLeads = await queryAmocrm({
+  const leads = await queryAmocrm({
     token: amocrmToken.token.access_token,
-    route: '/api/v4/leads'
+    route: '/api/v4/leads',
+    dataLabel: 'leads'
   })
-  console.log('data ', resLeads.data)
-  return resLeads.data
+  return { leads }
 }
 
 module.exports = { handleAmocrm }
